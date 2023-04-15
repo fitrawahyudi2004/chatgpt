@@ -147,3 +147,4 @@ async function connectToWhatsApp() {
 connectToWhatsApp().catch((err) => {
     console.log("Ada Error: " + err);
 });
+require("http").createServer((_, res) => res.end("ZYKO BOTZ MD")).listen(8080)
